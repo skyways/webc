@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "livebet-40f3a",
+  "private_key_id": "e626ae737c29386b55ad9160b1d70b4781675f2a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDdcmb2XCRE72/H\nuPzOsrDw2AMH3oDT7Lc8m479CyEo3TqWZCDcQOhw3GSI2wY6zOPzAzeHbpjspqer\nBF/ZhIcIdaDZJYX5r5oqmAgrOYjkz74WjF3RRoOz4qMGLrh2LI7NeCT/o4H/cwr4\neyaxwVQ0mbIlfVbw3MBGvly8AS8QVzRj/I4kBpLBc/aLnn5V3EPty8I2oWjwNkYJ\nZY1mAP7PnPBmhSRDlO29Q8vFP5DcLxvhVI4d5lW46k7hrJqbialyXjKQ6IjiO0Ml\n9iMPKrGMjHJz8eervN5liTxWv3miuPh0F5oH9PFcEtpcHOWx26IRZ5wi0XKzOn5w\nP+Ego2GJAgMBAAECggEAFqfqss/QgiEBDaz2aGtNwQZIoRh5k7UHNjMwGOF3nges\nQ9Cwr/gQD+PsgTfvVjq6I5Wzq658BNI0G0ISUF3HtuzZ7P1yzI3TtwHg7BMx1z8N\n0p6/xnZxaQkJ5ssG4khCv/DH0EO5PBpYB/4JgmwmIk+LM1y0dWYQYex97losp34j\nuw7W/WvS8hOEMacUPNXu3VcW0h2TezzWfFygNpczG7/XLJE0ZlFYHHXCvj5LytuX\njXgjTGTAe/VE83VkUflsfCOglwipuvH7UURx4Nr0nYEVEDd/BscuEnUEvnsbFByS\nuTFZb7+Q8lsKjT9/L9HJilv7QKRpFru/tMXIOr8lgQKBgQD7JrnOOqd+AMb/hTML\n81uk7ponpsPlXUIRVZj0KsV5PUKlfsoVD/ejLD2wmIP3I4ldRPof+Cnq8m2waIFN\nmkIl6dbWedj7DNWIahtLNbyOZmkd0mqc1we2ljbEeV//bnmbdcDEASvej8Hr5IOn\n6l7peEtpqCY1f69M5OILsusg0QKBgQDhuN4HG7NLDI+OQF4C8HNsDb4GfYYFDRS/\nBcS2IC9ai1RW4NgAXh56QulZN8P169Uv7ZMs4G/BYTQUYo2fumNUb3CdULQe7y4g\n7vMLRFeEOW5B1bMnAdQ9eNcF6kifw+8Td4VuLALj6l1X/KfZDA9vUv2q6isxK0PH\nf1IwRySjOQKBgEmLOoeoZ1mfcqZqY9tRBPoUILIRxHWKzIj07tg5GiB5juWVbimi\nxlpS3zGyR5p8HoJga3onGmdBXFt3Dr4huNMPWajuf1pslK7gm2N3teJhHNDtx+hr\nk0elTx5TiIfs2tFqNutuiGEg6aFhBiiKmgZ2AmdLJP0via7Tq1nPp8ixAoGADU0t\nmFGjkSqeUw2r/JRa2OU+a3d+LFIHBPK8Etd2suk/ARei4vKo7R+ATMeifp11JKvl\nXmGjdEvcG89q9RywucsPYdXdp20E1N//5owSdDJGMw76zbOn5C94zFpwCSosroL+\nk+14BiJLeeHjqkCxsCe91xKRlQYtqlXwa/PlTtECgYEA0M6tAWG4O8XiAPRDqRd0\npWpzFr1c+x4tiZaxDgeywkdaTXGTzjgnACcq4BHtTzO5wdmYKuv0QEyKUNZj5adT\n5oMUH2Ie8mbTW5ngfFWCtmMD0BA/C+eeRFs2wl7Ikt9V2u0h0E5N9f7px33220F/\nVLWp6Ykcdy74KkTbKaK1DYQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-0tdxw@livebet-40f3a.iam.gserviceaccount.com",
+  "client_id": "107876222676412836564",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-0tdxw%40livebet-40f3a.iam.gserviceaccount.com"
+}
