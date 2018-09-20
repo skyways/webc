@@ -22,7 +22,6 @@ $db=$firebase->getDatabase();
 $teamsx=[];
 $teamcounter=0;
 $current_date=date("Y-m-d");
-$current_date="2018-09-19";
 $TEAMS=[];
 $PREDICTIONS=[];
 
@@ -57,7 +56,7 @@ $i = 0; foreach ($html->find('table.content_table tr ') as $video) {
                                          $result=strip_tags($result);
                                  }
 
-                                 $teamsx[$teamcounter]=$result."Teams";
+                                 $teamsx[$teamcounter]=$result;
                                  
                                  $teamcounter++;
 
@@ -79,7 +78,7 @@ $i = 0; foreach ($html->find('table.content_table tr ') as $video) {
                                         }
 
                                 }
-                                $pick[$pickcounter]=$result."</br>";
+                                $pick[$pickcounter]=$result;
                                 //$master_variable([$teamcounter],[1]=$result);
 
                                 $pickcounter++;
@@ -120,17 +119,13 @@ if( $teamscount<=40){
 
 }
 
-// for($i=0;$i<sizeof($teamsx);$i++){
-//   echo $teamsx[$i]." ".$pick[$i-2];
-// }
 
 
-  //echo $teamscount."</br>";
-  //echo $teamcounter." ".$pickcounter;
+
   $entry;//this is to keep todays count;
 for(;$i<=$teamscount-1;){
 
-       $prediction=$pick[$i-2];
+       $prediction=$pick[$i-1];
        $teams=$teamsx[$i];
        $time="0";
 
@@ -138,13 +133,8 @@ for(;$i<=$teamscount-1;){
        global $current_date;
        $date=$current_date;
 
-       $db->push([
-        'teams'=>$teams,
-        'a'=>'a',
-        'pick'=>$prediction,
-        'date'=>$date ]);
-
-       if($pick[$i]!='')
+       
+       if($pick[$i-1]!='')
        {      try{
                if($teamsx[$i]!=''){
                  $db->push([
