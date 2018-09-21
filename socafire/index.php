@@ -119,6 +119,12 @@ if( $teamscount<=40){
 
 }
 
+if( $teamscount<=10){
+  $i=1;
+  $interval=2;
+
+}
+
 
 
 
