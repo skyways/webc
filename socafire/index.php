@@ -121,7 +121,12 @@ if( $teamscount<=40){
 
 if( $teamscount<=10){
   $i=1;
-  $interval=2;
+  $interval=0;
+
+}
+if( $teamscount<=20){
+  $i=1;
+  $interval=1;
 
 }
 
@@ -139,7 +144,7 @@ for(;$i<=$teamscount-1;){
        global $current_date;
        $date=$current_date;
 
-       
+       echo $teams;
        if($pick[$i-1]!='')
        {      try{
                if($teamsx[$i]!=''){
